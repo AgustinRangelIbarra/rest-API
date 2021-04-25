@@ -26,12 +26,6 @@ serverApp.get("/", (request, response) => {
 });
 
 
-// Middlewares
-
-
-
-
-
 //Connect to DB 
 mongoose.connect(
 	// Reemplazar después de ://<usuario>:<contrasena>
